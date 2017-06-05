@@ -1,1 +1,2 @@
 C:\DATA\STUDYING\C#\PROJECT\LearnWPFMVVM\ManageStudent\bin\Debug\ManageStudent.exe.config
+C:\DATA\STUDYING\C#\PROJECT\LEARNPATTERN\LearnWPFMVVM\ManageStudent\bin\Debug\ManageStudent.exe.config
