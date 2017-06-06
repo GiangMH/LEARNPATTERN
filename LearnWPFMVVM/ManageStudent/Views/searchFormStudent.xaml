@@ -30,7 +30,7 @@
         </GroupBox>
         <GroupBox Grid.Column="0" Grid.Row="0" Height="60" Name="grbCommonButton" Width="Auto" Header="Common button" >
             <WrapPanel  Name="wrpSearchButton" Margin="20,5,0,0">
-                <telerik:RadButton Height="25" Name="btnAdd" Uid="ADDDISBURSENMENT" Content="Add" MinWidth="50" Margin="2,2,0,2" />
+                <telerik:RadButton Height="25" Name="btnAdd"  Content="Add" MinWidth="50" Margin="2,2,0,2" />
                 <telerik:RadButton Height="25" Name="btnView" Content="View" MinWidth="50" Margin="4,2,0,2" IsEnabled="False" />
                 <telerik:RadButton Height="25" Name="btnDelete" Content="Delete" MinWidth="50" Margin="4,2,0,2" IsEnabled="False" />
             </WrapPanel>
