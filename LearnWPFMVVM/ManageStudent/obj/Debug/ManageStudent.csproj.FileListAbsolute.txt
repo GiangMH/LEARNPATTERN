@@ -1,2 +1,11 @@
 C:\DATA\STUDYING\C#\PROJECT\LearnWPFMVVM\ManageStudent\bin\Debug\ManageStudent.exe.config
+<<<<<<< HEAD
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\bin\Debug\ManageStudent.exe.config
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\obj\Debug\ManageStudent.csprojResolveAssemblyReference.cache
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\obj\Debug\MainWindow.g.cs
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\obj\Debug\App.g.cs
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\obj\Debug\ManageStudent_MarkupCompile.cache
+C:\Users\Windows 10 TIMT\Documents\GitHub\LEARNPATTERN\LearnWPFMVVM\ManageStudent\obj\Debug\ManageStudent_MarkupCompile.lref
+=======
 C:\DATA\STUDYING\C#\PROJECT\LEARNPATTERN\LearnWPFMVVM\ManageStudent\bin\Debug\ManageStudent.exe.config
+>>>>>>> 043130c11867807d9eab7913a5f45f1babc05f70

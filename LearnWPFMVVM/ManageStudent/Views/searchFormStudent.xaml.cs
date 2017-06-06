@@ -12,16 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace ManageStudent.Views
+namespace ManageStudent.Views.student
 {
     /// <summary>
-    /// Interaction logic for searchFormStudent.xaml
+    /// Interaction logic for searchForm.xaml
     /// </summary>
-    public partial class searchFormStudent : Window
+    public partial class searchForm : Window
     {
-        public searchFormStudent()
+        public searchForm()
         {
             InitializeComponent();
+        }
+        public void Init()
+        {
+            List<string> caption = new List<string>();
+            caption.Add(My.Resources.searchFormStudent.lblcaptionSearch);
+            
         }
     }
 }

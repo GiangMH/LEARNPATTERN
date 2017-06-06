@@ -38,7 +38,27 @@
     <Reference Include="InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v12.2">
       <HintPath>..\..\O9Client\O9Credit\bin\Debug\InfragisticsWPF4.Controls.Interactions.XamDialogWindow.v12.2.dll</HintPath>
     </Reference>
+    <Reference Include="InfragisticsWPF4.DataPresenter.v12.2, Version=12.2.20122.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\InfragisticsWPF4.DataPresenter.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.DockManager.v12.2, Version=12.2.20122.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\InfragisticsWPF4.DockManager.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.Editors.v12.2, Version=12.2.20122.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\InfragisticsWPF4.Editors.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="InfragisticsWPF4.v12.2, Version=12.2.20122.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\InfragisticsWPF4.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Infralution.Localization.Wpf">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Infralution.Localization.Wpf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,6 +69,24 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Telerik.Windows.Controls">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Data">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Controls.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Input">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Controls.Input.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.Navigation">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Controls.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Controls.RibbonBar">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Controls.RibbonBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Windows.Data">
+      <HintPath>D:\DEVELOPMENT_TEAM\trade\source\O9Client\O9ViewModel\bin\Debug\Telerik.Windows.Data.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -58,7 +96,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
+    <Compile Include="Utils\DataAccessUltility.cs" />
+    <Compile Include="Resource\student\searchFormStudent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>searchFormStudent.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Service.cs" />
+=======
     <Compile Include="Model\ModelStudent.cs" />
+>>>>>>> 043130c11867807d9eab7913a5f45f1babc05f70
     <Compile Include="Views\searchFormStudent.xaml.cs">
       <DependentUpon>searchFormStudent.xaml</DependentUpon>
     </Compile>
@@ -96,6 +144,11 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource\student\searchFormStudent.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>searchFormStudent.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
