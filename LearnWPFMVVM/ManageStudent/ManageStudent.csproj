@@ -96,6 +96,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Utils\CommandService.cs" />
     <Compile Include="Utils\DataAccessUltility.cs" />
     <Compile Include="Resource\student\searchFormStudent.Designer.cs">
       <AutoGen>True</AutoGen>

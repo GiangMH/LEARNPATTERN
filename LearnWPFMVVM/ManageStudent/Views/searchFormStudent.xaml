@@ -18,8 +18,20 @@
         </Grid.RowDefinitions>
         <GroupBox Grid.Column="0" Grid.Row="2" Height="Auto" Name="grbSearchResult" MinWidth="650" Header="Result" >
             <WrapPanel Grid.Column="0" Grid.Row="2" Name="wprSearchResult">
-                <DataGrid  HorizontalAlignment="Stretch" IsEnabled="False" Margin="0,5,0,0" MinHeight="50" Name="dgrResult" Width="Auto" Height="Auto" >
-                </DataGrid>
+                <igDP:XamDataGrid x:Name="grdResultStudent">
+                    <igDP:XamDataGrid.FieldLayouts>                       
+                        <igDP:FieldLayout>
+                            <igDP:FieldLayout.Fields>
+                                <igDP:Field Name="code" Label="Student code"/>
+                                <igDP:Field Name="lastName" Label="Last name" />
+                                <igDP:Field Name="firstName" Label="First name"/>
+                                <igDP:Field Name="sex" Label="Sex"/>
+                                <igDP:Field Name="phone" Label="Phone"/>
+                                <igDP:Field Name="email" Label="Email"/>
+                            </igDP:FieldLayout.Fields>
+                        </igDP:FieldLayout>
+                    </igDP:XamDataGrid.FieldLayouts>
+                </igDP:XamDataGrid>
             </WrapPanel>
         </GroupBox>
         <GroupBox Grid.Column="0" Grid.Row="1" Height="54" Name="grbSearchNomal" MinWidth="650" Header="Search" >
