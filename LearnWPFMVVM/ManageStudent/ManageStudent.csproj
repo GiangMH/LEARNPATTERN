@@ -96,6 +96,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
+=======
+    <Compile Include="Utils\CommandService.cs" />
+>>>>>>> e21cfb14133e8824b1e220481c14d02d89e5fe89
     <Compile Include="Utils\DataAccessUltility.cs" />
     <Compile Include="Resource\student\searchFormStudent.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -104,6 +108,11 @@
     </Compile>
     <Compile Include="Utils\Service.cs" />
     <Compile Include="Model\ModelStudent.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="ViewModel\BaseViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelStudent.cs" />
+>>>>>>> e21cfb14133e8824b1e220481c14d02d89e5fe89
     <Compile Include="Views\searchFormStudent.xaml.cs">
       <DependentUpon>searchFormStudent.xaml</DependentUpon>
     </Compile>
@@ -156,9 +165,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

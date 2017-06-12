@@ -22,12 +22,6 @@ namespace ManageStudent.Views.student
         public searchForm()
         {
             InitializeComponent();
-        }
-        public void Init()
-        {
-            List<string> caption = new List<string>();
-            caption.Add(My.Resources.searchFormStudent.lblcaptionSearch);
-            
-        }
+        }        
     }
 }
