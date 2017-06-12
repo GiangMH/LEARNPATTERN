@@ -96,7 +96,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-<<<<<<< HEAD
     <Compile Include="Utils\DataAccessUltility.cs" />
     <Compile Include="Resource\student\searchFormStudent.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -104,9 +103,7 @@
       <DependentUpon>searchFormStudent.resx</DependentUpon>
     </Compile>
     <Compile Include="Utils\Service.cs" />
-=======
     <Compile Include="Model\ModelStudent.cs" />
->>>>>>> 043130c11867807d9eab7913a5f45f1babc05f70
     <Compile Include="Views\searchFormStudent.xaml.cs">
       <DependentUpon>searchFormStudent.xaml</DependentUpon>
     </Compile>

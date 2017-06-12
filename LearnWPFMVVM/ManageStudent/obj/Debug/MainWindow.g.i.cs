@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using Infralution.Localization.Wpf;
 using ManageStudent;
 using System;
 using System.Diagnostics;
